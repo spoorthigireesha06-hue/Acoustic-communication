@@ -1,5 +1,5 @@
 # Underwater-acoustic-communication
-Demonstrated working of underwater acoustic communication with lm386 on tx side and lm358 on rx side with fsk encoding technique using Arduino Uno 
+Demonstrated working of underwater acoustic communication of range within 5cm to 8cm with lm386 on tx side and lm358 on rx side with fsk encoding technique using Arduino Uno 
 ## system architecture
 Arduino (TX) → LM386 power amp → Piezo TX → Water → Piezo RX → AC coupling → LM358 op-amp → Arduino (RX)
 FSK encoding: 4 kHz = bit 0, 5 kHz = bit 1
